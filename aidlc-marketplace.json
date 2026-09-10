@@ -8,37 +8,37 @@
   "plugins": [
     {
       "name": "test-pro",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "Full-featured testing plugin — comprehensive, traceable test coverage: unit (branch + line coverage), functional, integration, regression, edge (boundary/±min·max), and API positive+negative. Reuses aidlc-quality-agent as the test lead and adds a metrics support persona.",
-      "tag": "test-pro--v0.1.0",
+      "tag": "test-pro--v0.1.1",
       "harnesses": {
         "claude": {
           "path": "test-pro/claude",
-          "sha256": "64dd76ce239ea15b68f229650ebaf910ab918f23b1c87217962ab06271877193"
+          "sha256": "8303e95f37fdd6fd81fa803ec078ac338d875589b8e64cdb56f74c0c823fa517"
         },
         "codex": {
           "path": "test-pro/codex",
-          "sha256": "fadc56eccd7bdde0736da6deaf35724a75623dbe3f27f16ad99abcff680cbcb4"
+          "sha256": "4c7fa67d39e900aac035290bf284317a59420bd4339e7f2a3e9698a00576f08d"
         },
         "copilot": {
           "path": "test-pro/copilot",
-          "sha256": "a7c220709e14033f7b956bfce1872990b4f17e24a38f09e1577b686655dea865"
+          "sha256": "fbea5743fab31e39ba67207c44bd2f2a53cb9c081e3fa155bc57518f2f450fc7"
         },
         "cursor": {
           "path": "test-pro/cursor",
-          "sha256": "843f1dd4fae89e730326bd414b31afdccb9d8f640a1b637de48373f0d04419a7"
+          "sha256": "092df590257b3437088b8d81c9afc67b7509e656ba2f8fbdff9a83d0312abfa5"
         },
         "kiro": {
           "path": "test-pro/kiro",
-          "sha256": "293e4bacf392d640f8212eba0a6921fa6e0544e44b921aa23a009ed223d750c7"
+          "sha256": "8886b7b5317a4c0c9c14a788aebed381a7e6e4b450f055a95515aa3441847398"
         },
         "kiro-ide": {
           "path": "test-pro/kiro-ide",
-          "sha256": "727942d03e02a76a262f42cb2cf6962e38179f2ce0d38ad1ec45dd16f7cad669"
+          "sha256": "2eca55b4e022d0bfad7b118baed75d68aba6c8f1714b2b8b5c45cd568326d6e3"
         },
         "opencode": {
           "path": "test-pro/opencode",
-          "sha256": "9372dbe95ed5249657dafae8e29997ebed32ef5b787dd3ce7c2b411ab9f60a87"
+          "sha256": "5cff78de156ff13070de3e9a3c1ff1d84f289aca6cdaab954c203041775bcbc7"
         }
       }
     }
