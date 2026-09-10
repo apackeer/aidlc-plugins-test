@@ -2487,5 +2487,3 @@ await flushDrops();
 }
 
 if (import.meta.main) await compose();
-
-// post-tag edit on main: bytes no longer match test-pro--v0.1.2
