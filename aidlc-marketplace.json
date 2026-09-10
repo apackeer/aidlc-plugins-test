@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "name": "aidlc-plugins",
+  "owner": {
+    "name": "AWS AIDLC"
+  },
+  "description": "AIDLC plugin catalogue.",
+  "plugins": [
+    {
+      "name": "test-pro",
+      "version": "0.1.0",
+      "description": "Full-featured testing plugin — comprehensive, traceable test coverage: unit (branch + line coverage), functional, integration, regression, edge (boundary/±min·max), and API positive+negative. Reuses aidlc-quality-agent as the test lead and adds a metrics support persona.",
+      "tag": "test-pro--v0.1.0",
+      "harnesses": {
+        "claude": {
+          "path": "test-pro/claude",
+          "sha256": "64dd76ce239ea15b68f229650ebaf910ab918f23b1c87217962ab06271877193"
+        },
+        "codex": {
+          "path": "test-pro/codex",
+          "sha256": "fadc56eccd7bdde0736da6deaf35724a75623dbe3f27f16ad99abcff680cbcb4"
+        },
+        "copilot": {
+          "path": "test-pro/copilot",
+          "sha256": "a7c220709e14033f7b956bfce1872990b4f17e24a38f09e1577b686655dea865"
+        },
+        "cursor": {
+          "path": "test-pro/cursor",
+          "sha256": "843f1dd4fae89e730326bd414b31afdccb9d8f640a1b637de48373f0d04419a7"
+        },
+        "kiro": {
+          "path": "test-pro/kiro",
+          "sha256": "293e4bacf392d640f8212eba0a6921fa6e0544e44b921aa23a009ed223d750c7"
+        },
+        "kiro-ide": {
+          "path": "test-pro/kiro-ide",
+          "sha256": "727942d03e02a76a262f42cb2cf6962e38179f2ce0d38ad1ec45dd16f7cad669"
+        },
+        "opencode": {
+          "path": "test-pro/opencode",
+          "sha256": "9372dbe95ed5249657dafae8e29997ebed32ef5b787dd3ce7c2b411ab9f60a87"
+        }
+      }
+    }
+  ]
+}
